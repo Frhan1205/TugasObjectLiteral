@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="judul">
+      <h1>Program Keranjang</h1>
+      <button id="cartButton" class="cart-btn">Lihat Keranjang</button>
+    </div>
+    <hr />
+
+    <div>
+      <h1 style="text-align: center">Produk</h1>
+      <div class="products"></div>
+    </div>
+
+    <!-- Modal Keranjang -->
+    <div id="cartModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Keranjang Belanja</h1>
+        <div class="keranjang"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
